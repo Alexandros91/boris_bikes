@@ -18,11 +18,10 @@ NOUNS:
 
 Person
 Bike
-Station
+DockingStation
 
 VERBS:
 Use
-Docking 
 Release
 Working 
 Seeing
@@ -30,11 +29,11 @@ Seeing
 
 Objects | Messages
      	|
-Station	| Docking
-Bike	| Working
-Person	| Release
-	    | Use 
-	    | Seeing 
+Station	| Working
+Bike	| Release
+Person	| Use
+	    | Seeing
+	    |  
 
 
 Person [OBJECT] > [Message] Release to communicate with [OBJECT] Docking Station > Docking Station [OBJECT] uses [message] Release to[OBJECT] Bike 
